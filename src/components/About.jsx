@@ -2,7 +2,7 @@ import profile from "../assets/profile.png";
 import "./About.css";
 const About = () => {
   return (
-    <div className="about">
+    <div id="about" className="about">
       <div className="about-title">
         <h1>About Me</h1>
       </div>
@@ -37,6 +37,9 @@ const About = () => {
             </div>
             <div className="about-skill">
               <p>Redux</p> <hr style={{ width: "50%" }} />
+            </div>
+            <div className="about-skill">
+              <p>AWS</p> <hr style={{ width: "50%" }} />
             </div>
           </div>
         </div>
